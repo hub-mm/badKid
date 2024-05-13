@@ -1,0 +1,47 @@
+/* styles.css */
+
+* {
+    font: roboto;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.logo-text {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    gap: 32px;
+}
+
+.links, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links, a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+}
