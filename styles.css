@@ -1,7 +1,9 @@
 /* styles.css */
 
+
 * {
-    font: roboto;
+    font-family: "Roboto Condensed", sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,34 +11,34 @@ body {
     margin: 0;
 }
 
-.container {
-    background-color: #1f2937;
-}
+
+/* header + content - start */
 
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-bottom: 48px;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 48px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .logo-text {
     color: #f9faf8;
     font-size: 24px;
-}
-
-.links {
-    display: flex;
-    gap: 32px;
+    font-weight: 800;
 }
 
 .links, ul {
+    display: flex;
     list-style-type: none;
+    gap: 16px;
     margin: 0;
     padding: 0;
 }
 
-.links, a {
+.links a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
@@ -44,4 +46,100 @@ body {
 
 .content {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    gap: 16px;
 }
+
+.content-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0 8px;
+}
+
+.content-button {
+    display: flex;
+    padding: 8px 0;
+}
+
+.content-img {
+    flex-shrink: 0;
+    text-align: center;
+    color: white;
+}
+
+.h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.h2 {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.content-button button {
+    background-color: #3883f6;
+    color: #f9faf8;
+    font-weight: 800;
+    padding: 4px 24px;
+    border-style: none;
+    border-radius: 5px;
+}
+/* header + content - end */
+
+
+/* info - start */
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 768px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 32px;
+}
+
+.info-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2px;
+}
+
+.info-list img {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3883f6;
+}
+
+.info-list div {
+    width: 160px;
+    box-shadow: 2px 2px 2px -1px  black;
+}
+
+.info-list p {
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 150px;
+    padding: 0;
+    margin: 4px;
+}
+/* info - end */
