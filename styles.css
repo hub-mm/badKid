@@ -87,7 +87,7 @@ img {
 
 .info .box img {
     border-style: solid;
-    border: solid #3882f6 2px;
+    border: solid black 1px;
     border-radius: 10px;
 }
 
@@ -125,7 +125,7 @@ img {
 .action {
     background: #3882f6;
     margin: 36px 0;
-    padding: 24px 48px;
+    padding: 24px 128px;
     border-radius: 10px;
 }
 
